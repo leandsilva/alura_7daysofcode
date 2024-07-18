@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --fonte-principal: "Inter", sans-serif;
+    --background: #FFFFFF;
+    --primeira-cor: #3A404E;
+    --segunda-cor: #667085;
+    --terceira-cor: #8E2424;
+    --quarta-cor: #101828;
+    --quinta-cor: #EAECF0;
+}
+
+body {
+    background-color: var(--background);
+    font-family: var(--fonte-principal);
+}
+
+nav {
+    width: 1,440px;
+    height: 80px;
+    align-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1,280px;
+    height: 44px;
+    padding: 0 32px 0 32px;
+    margin: 18px 80px 18px 80px;
+}
+
+.button__base {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+#logo__img {
+    width: 27px;
+    height: 26.99px;
+}
+
+.logo__text {
+    display: flex;
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--primeira-cor);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.logo__transparent {
+    display: flex;
+    width: 142px;
+    height: 32px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.content a {
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+    color: var(--segunda-cor);
+    font-weight: 500;
+}
+
+button {
+    width: 112px;
+    height: 44px;
+    border-radius: 8px;
+    gap: 8px;
+    padding: 10px 18px 10px 18px;
+    background-color: var(--terceira-cor);
+    border: none;
+}
+
+#button {
+    color: var(--background);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.login a {
+    text-decoration: none;
+    color: var(--segunda-cor);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    height: 407px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.cabecalho h3 {
+    font-weight: 600;
+    color: var(--terceira-cor);
+}
+
+.cabecalho h1 {
+    font-weight: 600;
+    color: var(--quarta-cor);
+    font-size: 48px;
+}
+
+.cabecalho p {
+    line-height: 30px;
+    font-size: 20px;
+    color: var(--segunda-cor)
+}
+
+.metricas {
+    width: 1,440px;
+    height: 288px;
+    gap: 64px;
+}
+
+.container__metricas {
+    display: flex;  
+    justify-content: center;
+    width: 1,216px;
+    height: 192px;
+    gap: 64px;
+    padding: 0px, 32px, 0px, 32px;
+}
+
+.metrics__item {
+    width: 280px;
+    height: 168px;
+    gap: 20px;
+}
+
+.metrics__item h2 {
+    color: var(--terceira-cor);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.metrics__item h4 {
+    color: var(--quarta-cor);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.metricas__text {
+    color: var(--segunda-cor);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* quarto dia */
+
+.vacancies {
+    display: grid;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    gap: 62px;
+}
+
+.container__image {
+    width: 1280px;
+    height: 602px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap: 32px;
+}
+
+.container__image h3 {
+    background-color: rgba(142, 36, 36, 0.05);
+    color: var(--terceira-cor);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+}
+
+.container__image h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--quarta-cor);
+}
+
+.container__image p {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--segunda-cor);
+}
+
+/* quinto dia */
+
+.openedvacancies {
+    margin: 0 auto;
+}
+
+.teste1, .teste2 {
+    display: grid;
+    gap: 24px;
+}
+
+.teste2 {
+    margin-top: 64px;
+}
+
+.openedvacancies h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--quarta-cor);
+}
+
+.designvaga, .desenvolvimentovaga {
+    display: grid;
+    align-items: center;
+    width: 768px;
+    height: 136px;
+    padding: 24px 24px 28px 24px;
+    border: 1px solid var(--quinta-cor);
+    border-radius: 16px;
+    gap: 24px;
+}
+
+.titulo-vaga {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--quarta-cor);
+}
+
+.informacoes {
+    display: flex;
+    gap: 24px;
+}
+
+span {
+    font-weight: 500;
+    line-height: 24px;
+    gap: 24px;
+    color: var(--segunda-cor);
+}
