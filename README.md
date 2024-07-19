@@ -4,17 +4,18 @@
 </p>
 <h1>7 Days Of Code</h1>
 <p align="center">
-<img alt="Static Badge" src="https://img.shields.io/badge/STATUS-EM_ANDAMENTO-orange">
+<img alt="Static Badge" src="https://img.shields.io/badge/STATUS-COMPLETO-green">
 </p>
 <br>
 <h2>:mortar_board: Projeto de Estudo</h2>
 <p>Primeiro desafio do 7 Days Of Code, por meio da plataforma Alura, orientado pela Giovanna Moeller, para prática e aplicação do conteúdo aprendido sobre HTML e CSS. Serão 7 dias com 7 inclusões diferentes na página para prática, sendo dividido, resumidamente, da seguinte forma:
 
-- O primeiro: inclusão da barra de navegação, com botões e lista de menu, sem direcionamento, apenas estético;
-- O segundo, a inclusão da primeira sessão, com métricas e textos;
-- O terceiro, inclusão de foto e texto informativo com background e opacidade de cor;
-- O quarto, inclusão e posicionamento de cards informativos;
-- O quinto está sendo feito hoje (18/07/24), portanto as informações tanto desse, quanto dos últimos dias serão postadas aqui conforme execução.</p>
+- O primeiro: inclusão da barra de navegação, com botões e lista de menu, sem direcionamento, apenas composição de layout;
+- O segundo, a inclusão da primeira seção, com métricas e textos;
+- O terceiro, inclusão da seção de vagas com foto texto informativo com background e opacidade de cor;
+- O quarto, inclusão e posicionamento de cards contendo informações de vagas;
+- O quinto, seção de depoimentos com avatar;
+- O sexto e último, rodapé com formulário de contato e copyright, sem direcionamento, apenas composição de layout.</p>
 <br>
 <h2>:hammer: Funcionalidades do Projeto</h2>
 <p>Demonstração de página única com botões e imagens inclusas por meio de CSS.</p>
