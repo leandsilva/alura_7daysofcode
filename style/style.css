@@ -1,3 +1,5 @@
+/* Dia 1 */
+
 * {
     padding: 0;
     margin: 0;
@@ -11,6 +13,10 @@
     --terceira-cor: #8E2424;
     --quarta-cor: #101828;
     --quinta-cor: #EAECF0;
+    --sexta-cor: #F9FAFB;
+    --setima-cor: #D0D5DD;
+    --oitava-cor: #FFFFFF;
+    --nona-cor: #98A2B3;
 }
 
 body {
@@ -59,7 +65,7 @@ nav {
     gap: 40px;
 }
 
-.logo__transparent {
+.logo__none {
     display: flex;
     width: 142px;
     height: 32px;
@@ -99,7 +105,9 @@ button {
     color: var(--segunda-cor);
 }
 
-.cabecalho {
+/* Dia 2 */
+
+.header {
     display: flex;
     flex-direction: column;
     height: 407px;
@@ -109,30 +117,30 @@ button {
     gap: 24px;
 }
 
-.cabecalho h3 {
+.header h3 {
     font-weight: 600;
     color: var(--terceira-cor);
 }
 
-.cabecalho h1 {
+.header h1 {
     font-weight: 600;
     color: var(--quarta-cor);
     font-size: 48px;
 }
 
-.cabecalho p {
+.header p {
     line-height: 30px;
     font-size: 20px;
     color: var(--segunda-cor)
 }
 
-.metricas {
+.metrics {
     width: 1,440px;
     height: 288px;
     gap: 64px;
 }
 
-.container__metricas {
+.container__metrics {
     display: flex;  
     justify-content: center;
     width: 1,216px;
@@ -159,13 +167,13 @@ button {
     font-weight: 500;
 }
 
-.metricas__text {
+.metrics__text {
     color: var(--segunda-cor);
     font-weight: 400;
     font-size: 16px;
 }
 
-/* quarto dia */
+/* Dia 3 */
 
 .vacancies {
     display: grid;
@@ -208,18 +216,18 @@ button {
     color: var(--segunda-cor);
 }
 
-/* quinto dia */
+/* Dia 4 */
 
 .openedvacancies {
     margin: 0 auto;
 }
 
-.teste1, .teste2 {
+.section__vacancies__one, .section__vacancies__two {
     display: grid;
     gap: 24px;
 }
 
-.teste2 {
+.section__vacancies__two {
     margin-top: 64px;
 }
 
@@ -230,7 +238,7 @@ button {
     color: var(--quarta-cor);
 }
 
-.designvaga, .desenvolvimentovaga {
+.design, .development {
     display: grid;
     align-items: center;
     width: 768px;
@@ -241,14 +249,14 @@ button {
     gap: 24px;
 }
 
-.titulo-vaga {
+.vacancies-tittles {
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
     color: var(--quarta-cor);
 }
 
-.informacoes {
+.informative {
     display: flex;
     gap: 24px;
 }
@@ -258,4 +266,122 @@ span {
     line-height: 24px;
     gap: 24px;
     color: var(--segunda-cor);
+}
+
+/* Dia 5 */
+
+.depositions {
+    width: 1,440px;
+    height: 500px;
+}
+
+.depositions__content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    width: 1216px;
+    height: 404px;
+    background-color: rgba(195, 25, 25, 0.03);
+    border-radius: 16px;
+    gap: 32px;
+    padding: 0px 32px 0px 32px;
+    margin: 0 auto;
+}
+
+.depositions__content h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--terceira-cor);
+}
+
+.depositions__content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--quarta-cor);
+}
+
+.colaborator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+#avatar {
+    width: 56px;
+    height: 56px;
+}
+
+.colaborator h3 {
+    line-height: 24px;
+    color: var(--quarta-cor);
+}
+
+.colaborator h4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--segunda-cor);
+}
+
+/* Dia 6 */
+
+footer {
+    height: 430px;
+    padding-top: 96px;
+    background-color: var(--sexta-cor);
+}
+
+.container__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 832px;
+    height: 182px;
+    padding: 0px 32px 0px 32px;
+    gap: 32px;
+}
+
+.container__footer h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    color: var(--quarta-cor);
+}
+
+.container__footer p {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--segunda-cor);
+}
+
+form {
+    display: flex;
+    gap: 16px;
+}
+
+input {
+    width: 360px;
+    height: 48px;
+    padding-left: 16px;
+    border: 1px solid var(--setima-cor);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#lastbutton {
+    width: 116px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 12px 20px 12px 20px;
+    color: var(--oitava-cor);
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 32px;
+    color: var(--nona-cor);
 }
